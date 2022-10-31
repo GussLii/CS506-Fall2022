@@ -11,13 +11,7 @@ def get_centroid(points):
     
     Returns a new point which is the center of all the points.
     """
-    
-    mylist=[]
-    for i in range(len(points[0])):
-        for j in range(len(i)):
-            mylist.append(points[i][j])
-    return sum(mylist)/len(mylist)
-        
+    raise NotImplementedError()
 
 
 def get_centroids(dataset, assignments):
